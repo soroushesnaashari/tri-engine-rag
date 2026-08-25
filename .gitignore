@@ -1,0 +1,25 @@
+# Environment & Secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Virtual Environment & Package Manager
+.venv/
+dist/
+*.egg-info/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data & Database Artifacts
+data/raw_pdfs/
+data/processed_chunks.json
+chroma_db/
+.chroma/
+
+# OS Specific
+.DS_Store
+Thumbs.db

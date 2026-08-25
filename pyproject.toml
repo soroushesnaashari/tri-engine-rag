@@ -1,0 +1,31 @@
+[project]
+name = "tri-engine-dl-rag"
+version = "0.1.0"
+description = "A tri-engine RAG assistant comparing LlamaIndex, LangChain LCEL, and LangGraph Corrective RAG using Gemini."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "arxiv>=2.1.0",
+    "chromadb>=0.4.24",
+    "faiss-cpu>=1.8.0",
+    "google-genai>=0.1.0",
+    "langchain>=0.2.0",
+    "langchain-community>=0.2.0",
+    "langchain-core>=0.2.0",
+    "langchain-google-genai>=1.0.0",
+    "langgraph>=0.1.0",
+    "llama-index>=0.10.0",
+    "llama-index-core>=0.10.0",
+    "llama-index-embeddings-google-genai>=0.1.0",
+    "llama-index-llms-google-genai>=0.1.0",
+    "onnxruntime>=1.14.1,<1.20.0",
+    "pydantic>=2.7.0",
+    "pypdf>=4.2.0",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.35.0",
+    "tqdm>=4.66.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
